@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Buổi 7</title>
+    <link rel="stylesheet" href="">
+    <style>
+    body {
+        margin: 0;
+        font-family: tahoma;
+    }
+
+    #content {
+        margin: auto;
+        width: 80%;
+        background-color: #34495e;
+        padding: 30px;
+        height: 60em;
+    }
+
+    form {
+
+        padding: 30px;
+        border-radius: 5px;
+        border: 1px solid #000000;
+        width: 25%;
+        float: left;
+    }
+
+    form>input {
+        border-radius: 3px;
+        padding: 8px;
+        background: rgba(250, 250, 250, 0);
+        border: 1px solid #000000;
+        font-size: 1.2em;
+    }
+
+    form>select {
+        border-radius: 3px;
+        padding: 8px;
+        background: rgba(250, 250, 250, 0);
+        border: 1px solid #000000;
+    }
+
+    form>textarea {
+        resize: none;
+        border-radius: 3px;
+        padding: 8px;
+        background: rgba(250, 250, 250, 0);
+        border: 1px solid #000000;
+        font-family: tahoma;
+        font-size: 1.2em;
+    }
+
+    option {
+        background: rgba(250, 250, 250, 0);
+    }
+
+    form .image {
+        width: 30%;
+        margin: 10px 0px 0px 70px;
+    }
+#upload{
+	font-size: 0.9em;
+	margin: 15px;
+	margin-left: 0;
+}
+    #a {
+        float: left;
+        padding: 50px;
+        color: #ffffff;
+        font-size: 5em;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <form action="" method="post" accept-charset="utf-8" name="register_form">
+            <span> Username :</span>
+            <br>
+            <input type="text" name="Username" value="" placeholder="Enter Username" required pattern="084\.\d{5}">
+            <br>
+            <span> Name : </span>
+            <br>
+            <input type="text" name="Username" value="" placeholder="Enter Name">
+            <br>
+            <span> Address :</span>
+            <br>
+            <input type="text" name="Username" value="" placeholder="Enter Address">
+            <br>
+            <span> PassWord :</span>
+            <br>
+            <input type="text" name="Username" value="" placeholder="Enter PassWord">
+            <br>
+            <span>Gender</span>
+            <br>
+            <input type="radio" name="gender"> <span> Male</span>
+            <br>
+            <input type="radio" name="gender"> <span> Female</span>
+           
+            <br>
+            <fieldset>
+            <legend>Favourites</legend>
+                <input type="checkbox" name="" checked> <span>Music</span>
+                <br>
+                <input type="checkbox" name=""> <span>Movie</span>
+                <br>
+                <input type="checkbox" name=""> <span>Football</span>
+                <br>
+                <input type="checkbox" name=""> <span>Tennis</span>
+            </fieldset>
+            <br>
+            <div>
+            </div>
+            <span>Nationality:</span>
+            <br>
+            <select name="">
+                <option value="Chose Your Nationality">Chose Your Nationality</option>}
+                <option value="VietNamese">VietNamese</option>
+                <option value="Japansese">Japansese</option>
+                <option value="American">American</option>
+                <option value="Thailandee">Thailandee</option>
+                <option value="Chinese">Chinese</option>
+            </select>
+            <br>
+            <span>Provincse/Citis</span>
+            <br>
+            <select name="" multiple>
+                <optgroup label="North" size="5" multiple>
+                    <option value="">Hanoi</option>
+                    <option value="">QuangNinh</option>
+                    <option value="">BacNinh</option>
+                    <option value="">BacGiang</option>
+                </optgroup>
+                <optgroup label="Center" size="5" multiple>
+                    <option value="">DaNang</option>
+                    <option value="">Hue</option>
+                    <option value="">QuangNam</option>
+                    <option value="">QuangNgai</option>
+                </optgroup>
+            </select>
+            <br>
+            <span>Decription</span>
+            <br>
+            <textarea name=""></textarea>
+            <br>
+
+            <br>
+            <input class="image" type="image" name="" src="D:\Photo\LoGo/facebook.png">
+        </form>
+        <form action="" enctype="multipart/form-data" method="get" accept-charset="utf-8">
+        	img
+        	<input id="upload" type="file" name="" accept="image/jpeg" value="" multiple="true">
+        	<input type="submit" name="Upload" value="Upload">
+        </form>
+        <div id="a">
+            <p>Hello Word !!!</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Tabs - Default functionality</title>
+    <link rel="stylesheet" href="JQUI/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $(function() {
+        $("#tabs").tabs();
+    });
+    </script>
+    <style type="text/css">
+    #content {
+        margin: auto;
+        width: 60%;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">
+Thiết kế web với HTML5, CSS3, JavaScript</a></li>
+                <li><a href="#tabs-2">Cơ sở dữ liệu dành cho Lập trình viên
+</a></li>
+                <li><a href="#tabs-3">Lập trình Java cơ bản</a></li>
+                <li><a href="#tabs-4">Lập trình ứng dụng với Java</a></li>
+                <li><a href="#tabs-5">Lập trình Web với Java</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p>Môn học này trang bị kiến thức, kỹ năng liên quan đến thiết kế một trang web. Một trong những kỹ năng quan trọng trong lập trình web, đồng thời giúp bạn trở thành full stack developer.
+                </p>
+            </div>
+            <div id="tabs-2">
+                <p>Môn học này trang bị kiến thức, kỹ năng liên quan đến Cơ sở dữ liệu. Một kỹ năng không thể thiếu của bất kỳ lập trình viên nào.</p>
+            </div>
+            <div id="tabs-3">
+                <p>Môn học này trang bị kiến thức, kỹ năng cơ bản về ngôn ngữ lập trình Java để giúp các bạn từng bước tiến sâu vào lập trình.</p>
+            </div>
+            <div id="tabs-4">
+                <p>Với môn học này bạn từng bước làm quen với việc xây dựng ứng dụng trên nền tảng Java.</p>
+            </div>
+            <div id="tabs-5">
+                <p>Môn này sẽ giúp bắt đầu làm việc với các ứng dụng chuyên nghiệp mà các công ty phần mềm đang làm.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

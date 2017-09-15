@@ -1,0 +1,282 @@
+/*header*/
+#header {
+    position: relative;
+}
+
+#header nav {
+    background: rgba(250, 250, 250, 0);
+    margin-top: 2em;
+}
+
+#header .search {
+    background: rgba(250, 250, 250, 0);
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+#header form {
+    text-align: center;
+}
+
+#header .linenav {
+    padding-top: 1em;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#header .navbar-nav {
+    padding-top: 1em;
+    font-size: 1em;
+}
+
+#header .hr {
+    height: 1px;
+    background: #e74c3c;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#header a {
+    text-decoration: none;
+    color: #727376;
+}
+.line {
+    width: 100%;
+    height: 5px;
+    background: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#menu .line1 {
+    width: 100%;
+    height:  5px;
+    background-color: #e67e22;
+    position: relative;
+    bottom: -5px;
+    left: 0;
+    opacity: 0;
+}
+#menu  li:hover div{
+    opacity: 1;
+}
+#dangkyhoc > a{
+	color: #e74c3c;
+}
+ #dangkyhoc .line1{
+ 	opacity: 1;
+ }
+/*=================Style Menu===================*/
+
+#menu a:hover {
+    color: #e74c3c;
+}
+
+#menu a {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#submenu1 {
+    top: 0;
+    visibility: hidden;
+    position: absolute;
+    padding: 0px;
+    left: 160px;
+
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+#submenu2 {
+    top: 31px;
+    opacity: 0;
+    position: absolute;
+    padding: 0px;
+    visibility: hidden;
+    left: 160px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#submenu3 {
+    top: 62px;
+    opacity: 0;
+    position: absolute;
+    padding: 0px;
+    left: 160px;
+    visibility: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+#submenu1>li,
+#submenu2>li,
+#submenu3>li {
+    width: 180px;
+
+    top: 0px;
+    left: 120px;
+    border-bottom: 1px solid #e74c3c;
+    background-color: #ffffff;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+#submenu>li {
+    text-align: left;
+    border-bottom: 1px solid #e74c3c;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+#submenu li:hover>#submenu1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#submenu li:hover>#submenu2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#submenu li:hover>#submenu3 {
+    visibility: visible;
+
+    opacity: 1;
+}
+
+#submenu {
+    width: 100%;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+    opacity: 0;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+    visibility: hidden;
+    top: 60px;
+}
+
+.chuongtrinhdaotao-nav:hover #submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.chuongtrinhdaotao-nav:hover .line {
+    opacity: 1;
+}
+
+#header ul {
+    list-style-type: none;
+}
+
+
+/*content*/
+/* feadture1*/
+ #feature1 .hr{
+	height: 1px;
+}
+#feature1 .lead{
+	margin-top:   5px ;
+	margin-bottom: 5px;
+}
+#feature1 .select{
+	font-size: 18px;
+}
+#feature1 form textarea {
+	resize: none;
+	height: 8em;
+	margin-bottom: 12px;
+}
+#feature1 form button {
+	margin-top: 0.5em;
+	font-size: 2em;
+
+	height: 2em;
+}
+#feature1 .tuvan{
+	text-align: center;
+	border: 1px dashed #e74c3c;
+	border-radius: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 50px;
+}
+#feature1 .fa{
+	font-size: 40px;
+	background: #e74c3c;
+	color: #ffffff;
+	padding: 10px;
+}
+#feature1 .fa2{
+	font-size: 2em;
+	background: #e74c3c;
+	color: #ffffff;
+	padding: 10px;
+}
+
+
+/* feature2*/
+#tab-feature2 {
+	width: 300px;
+	height: 400px;
+	position:fixed; 
+	bottom: 0px;
+	right: 0px;
+	float: right;
+	background: #BDC3C0;
+	border-radius: 5px;
+	box-shadow: 0px 20px 50px #000000;
+	z-index: 1;
+	display: none;
+	
+}
+#feature2 .btn{
+	bottom: 0px;
+
+}
+#feature2 textarea{
+	height: 130px;
+
+}
+#feature2 .btn-off{
+	width: 300px;	
+	position:fixed; 
+	bottom: 0px;
+	right: 0px;
+	float: right;	
+	box-shadow: 0px 20px 50px #000000;
+	z-index: 1;
+	
+}
+/* footer*/
+
+#footer {
+    background: #7F8C8D;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+#footer .row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+textarea{
+	resize: none;
+}

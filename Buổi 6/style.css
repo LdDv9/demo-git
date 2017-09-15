@@ -1,0 +1,58 @@
+body {
+  
+    background: #B99697;
+    font-family: tahoma;
+ 
+    color: #ffffff;
+  
+    text-shadow: 2px 2px 3px  #000000;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1000px){
+
+	body{
+		background-color: burlywood;
+	}
+}
+figure{
+	float: left;
+	margin: 50px;
+	margin-top: 10px;
+}
+.figure{
+	width: 200px;
+	height: 200px;
+	
+}
+figcaption{
+color: black;
+
+}
+td,th{
+	padding: 5px;
+
+}
+table{
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 100px;
+	text-align: center;
+	width: 300px;
+	vertical-align: middle;
+	border: 1px solid #000000;
+
+}
+th{
+	font-size: 2em;
+	background-color: #5DD7C9;
+	text-align: center;
+}
+tfoot{
+	background-color: #5DD7C9;
+}
+tr:nth-child(even){
+	background-color: #e2e2e2;
+}
+tr:hover{
+	background-color: #645144;
+}

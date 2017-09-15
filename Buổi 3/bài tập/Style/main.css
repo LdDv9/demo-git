@@ -1,0 +1,624 @@
+#header {
+    position: relative;
+}
+
+#header nav {
+    background: rgba(250, 250, 250, 0);
+    margin-top: 2em;
+}
+
+#header .search {
+    background: rgba(250, 250, 250, 0);
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+#header form {
+    text-align: center;
+}
+
+#header .linenav {
+    padding-top: 1em;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#header .navbar-nav {
+    padding-top: 1em;
+    font-size: 1em;
+}
+
+#header .hr {
+    height: 1px;
+    background: #e74c3c;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#header a {
+    text-decoration: none;
+    color: #727376;
+}
+.line {
+    width: 100%;
+    height: 5px;
+    background: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#menu .line1 {
+    width: 100%;
+    height:  5px;
+    background-color: #e67e22;
+    position: relative;
+    bottom: -5px;
+    left: 0;
+    opacity: 0;
+}
+#menu  li:hover div{
+    opacity: 1;
+}
+#trangchu > a {
+    color: #e74c3c
+}
+#trangchu > .line1{
+
+    opacity: 1;
+}
+
+
+
+
+
+
+/*=================Style Menu===================*/
+
+#menu a:hover {
+    color: #e74c3c;
+}
+
+#menu a {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#submenu1 {
+    top: 0;
+    visibility: hidden;
+    position: absolute;
+    padding: 0px;
+    left: 160px;
+
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+#submenu2 {
+    top: 31px;
+    opacity: 0;
+    position: absolute;
+    padding: 0px;
+    visibility: hidden;
+    left: 160px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#submenu3 {
+    top: 62px;
+    opacity: 0;
+    position: absolute;
+    padding: 0px;
+    left: 160px;
+    visibility: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+#submenu1>li,
+#submenu2>li,
+#submenu3>li {
+    width: 180px;
+
+    top: 0px;
+    left: 120px;
+    border-bottom: 1px solid #e74c3c;
+    background-color: #ffffff;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+#submenu>li {
+    text-align: left;
+    border-bottom: 1px solid #e74c3c;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+#submenu li:hover>#submenu1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#submenu li:hover>#submenu2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#submenu li:hover>#submenu3 {
+    visibility: visible;
+
+    opacity: 1;
+}
+
+#submenu {
+    width: 100%;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+    opacity: 0;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+    visibility: hidden;
+    top: 60px;
+}
+
+.chuongtrinhdaotao-nav:hover #submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.chuongtrinhdaotao-nav:hover .line {
+    opacity: 1;
+}
+
+#header ul {
+    list-style-type: none;
+}
+
+/* content*/
+
+#content hr {
+    margin: 0px;
+    height: 3px;
+    background: #e74c3c;
+}
+
+/* feature1*/
+
+#feature1 .carousel-inner img {}
+
+#feature1 {
+    padding-top: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+#feature1 .control {
+    margin-top: -2em;
+}
+
+#feature1 .glyphicon {
+    color: #3b3939;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+#feature2 {
+    background: #e74c3c;
+    margin-top: 27px;
+    padding: 20px;
+}
+
+#feature2 .boderfeature21,
+#feature2 .boderfeature22 {
+    border: 1px dashed #ffffff;
+    padding: 10px 0px 10px 0px;
+}
+
+#feature2 .pen {
+    padding: 0px;
+    margin: 0px;
+}
+
+#feature2 .headerdk {
+    color: #ffffff;
+    font-size: 1.6em;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+#feature2 .btn {
+    text-align: left;
+}
+
+#feature2 .hr {
+    background: red;
+    height: 2px;
+    width: 100%
+}
+
+#feature2 .dropdown {
+    padding: 0px;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background: rgba(250, 250, 250, 0);
+}
+
+#feature2 .select {
+    background: rgba(250, 250, 250, 0);
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+#feature2 option {
+    background: #e74c3c;
+}
+
+#feature2 input::placeholder,
+#feature2 textarea::placeholder {
+    color: #ffffff;
+}
+
+#feature2 input {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background: rgba(250, 250, 250, 0);
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+#feature2 .btn {
+    text-align: center;
+    font-size: 1.5em;
+    background: #e67e22;
+}
+
+#feature2 .loi-nhan {
+    background: rgba(250, 250, 250, 0);
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+#feature2 .control {
+    margin-top: 20px;
+}
+
+#feature2 .hr-feature2 {
+    border-top: 1px dashed #ffffff;
+    margin: auto;
+    width: 90%;
+}
+
+#feature2 .carousel {
+    height: 100%;
+}
+
+#feature2 .item {
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* feature3*/
+
+#feature3 .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#feature3 .hr {
+    background: background: rgba(250, 250, 250, 0);
+    border-top: 1px dashed #7F8C8D;
+    border-bottom: 0px;
+    height: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* feature4*/
+
+#feature4 {
+    background: #e74c3c;
+    color: #ffffff;
+}
+
+#feature4 .img {
+    width: 6em;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#feature4 a {
+    color: #ffffff;
+}
+
+#feature4 .nganhan {
+    margin: 0px;
+    padding-left: -20px;
+    padding: 0px;
+    padding-top: 12px
+}
+
+#feature4 .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#feature4 .border-feature41 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#feature4 .border-feature42 {
+    border: 1px dashed #ffffff;
+    border-radius: 5px;
+}
+
+#feature4 .img-nganhan {
+    width: 4em;
+    margin-top: 1em;
+}
+
+#feature4 .hr {
+    background: background: rgba(250, 250, 250, 0);
+    border-top: 1px dashed #ffffff;
+    border-bottom: 0px;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* feature5*/
+
+#feature5 .img-tintuc {
+    padding-top: 20px;
+}
+
+#feature5 .hr {
+    background: background: rgba(250, 250, 250, 0);
+    border-top: 1px dashed #000000;
+    border-bottom: 0px;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#feature5 a {
+    text-decoration: none;
+}
+
+#feature5 .img-tuanlevang {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#feature5 .img-chucmunghocvien {
+    width: 4em;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+#feature5 .img-tuyendung {
+    padding-top: 20px;
+}
+
+#feature5 p {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* feature6*/
+
+#feature6 .row {
+    text-align: center;
+    background: #BDC3C7;
+}
+
+#feature6 .hr {
+    background: background: rgba(250, 250, 250, 0);
+    border-top: 1px dashed #000000;
+    border-bottom: 0px;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#feature6 .control {
+    margin-top: -50px;
+}
+
+#tab-feature7 {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    float: right;
+    background: #BDC3C0;
+    border-radius: 5px;
+    box-shadow: 0px 20px 50px #000000;
+    z-index: 1;
+    display: none;
+}
+
+#feature7 .btn {
+    bottom: 0px;
+}
+
+#feature7 textarea {
+    height: 130px;
+}
+
+#feature7 .btn-off {
+    width: 300px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    float: right;
+    box-shadow: 0px 20px 50px #000000;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+#footer {
+    background: #7F8C8D;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+#footer .row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* change display*/
+
+@media screen and (max-width: 640px) {
+
+    #feature2 .control {
+        padding-bottom: 30px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    body {
+        text-align: center;
+    }
+    /* header*/
+    #header .linenav {
+        display: none;
+    }
+    #header a {
+        font-size: 1.5em;
+    }
+    /*feature2*/
+    #feature2 .chuongtrinhdaotao {
+        margin-top: 20px;
+    }
+    #feature4 .khaigiang {
+        margin: 10px;
+    }
+    #feature4 .img {
+        margin: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 60 lê văn hiến*/
